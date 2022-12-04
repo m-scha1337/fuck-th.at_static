@@ -10,24 +10,24 @@
 	<link rel="icon" type="image/png" sizes="16x16" href="fav/favicon-16x16.png">
 	<link rel="manifest" href="fav/site.webmanifest">
 	<link rel="mask-icon" href="fav/safari-pinned-tab.svg" color="#5bbad5">
-	<meta name="apple-mobile-web-app-title" content="fuck-th.at">
-	<meta name="application-name" content="fuck-th.at">
+	<meta name="apple-mobile-web-app-title" content="cajus.at">
+	<meta name="application-name" content="cajus.at">
 	<meta name="msapplication-TileColor" content="#603cba">
 	<meta name="theme-color" content="#e8e8e8">
 	<!-- End Favicon Madness-->
 	<!-- Meta -->
-	<meta name="title" content="fuck-th.at">
+	<meta name="title" content="cajus.at">
 	<!-- <meta name="description" content="This site is still under development. Check back later :)"> -->
-	<meta name="description" content="Market Leader in eustress™ Technology">
-	<meta name="keywords" content="fuck-th.at">
+	<meta name="description" content="Getting better at Repair - Together">
+	<meta name="keywords" content="cajus.at">
 	<meta name="robots" content="noindex, nofollow">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta name="language" content="English">
 	<meta http-equiv="content-language" content="en">
 <!--	<meta http-equiv="Refresh" content="0; url=https://www.youtube.com/watch?v=dQw4w9WgXcQ" />-->
-		<meta http-equiv="Refresh" content="0; url=https://sturgeon-chinchilla-rl33.squarespace.com/" />
+		<meta http-equiv="Refresh" content="3; url=https://sturgeon-chinchilla-rl33.squarespace.com/" />
 	<!---->
-	<title>😘Lots o' love. Hugz 'n kisses😘</title>
+	<title>301 | Redirecting</title>
 	<link rel="stylesheet" href="style.css">
 	<script src="particles/particles.min.js"></script>
 	<script>
@@ -40,9 +40,18 @@
 <div id="particles-js" class="center"></div>
 <div class="center grey wrapper">
 	<!-- <div class="code">200</div> -->
-	<div class="code">308</div>
+	<div class="code">301</div>
 	<!-- <div class="message">This Web-App is under Development</div> -->
-	<div class="message">😘Lots o' love. Hugz 'n kisses😘</div>
+	<div class="message">Redirecting <span id="wait" style="display: inline-block; width: 1ch;">...</span> Please wait</div>
 </div>
+<script>
+	var dots = window.setInterval( function() {
+		var wait = document.getElementById("wait");
+		if ( wait.innerHTML.length >= 3 )
+			wait.innerHTML = "";
+		else
+			wait.innerHTML += ".";
+	}, 400);
+</script>
 </body>
 </html>
